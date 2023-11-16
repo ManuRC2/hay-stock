@@ -1,0 +1,20 @@
+{
+  "name": "hay-stock",
+  "module": "run.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "axios-retry": "^3.8.1",
+    "cheerio": "^1.0.0-rc.12",
+    "scrapfly-sdk": "^0.3.0"
+  },
+  "scripts": {
+    "run": "bun run run.ts"
+  }
+}
