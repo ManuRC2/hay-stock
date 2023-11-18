@@ -15,6 +15,6 @@
     "scrapfly-sdk": "^0.3.0"
   },
   "scripts": {
-    "run": "bun run run.ts"
+    "bot": "bun run bot.ts"
   }
 }
